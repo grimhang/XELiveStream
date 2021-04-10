@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XELiveSteamConsole", "XELiveSteamConsole\XELiveSteamConsole.csproj", "{21712571-2AA9-4522-A9DA-8DD1B3559A8A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XELiveStreamConsole", "XELiveStreamConsole\XELiveStreamConsole.csproj", "{21712571-2AA9-4522-A9DA-8DD1B3559A8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

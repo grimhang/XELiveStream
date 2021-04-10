@@ -3,13 +3,16 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 
+
 namespace XELiveSteamConsole
 {
     class Program
     {
         static void Main(string[] args)
         {
-            OutputXELStream("Server=localhost;Database=master;Trusted_Connection=True;", "system_health");
+            
+
+            OutputXELStream(AppConfig.GetConnectionStringByName("mydb"), AppConfig.GetAppConfig("sessionName"));
         }
 
         static void OutputXELStream(string connectionString, string sessionName)
